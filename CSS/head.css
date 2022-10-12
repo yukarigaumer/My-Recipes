@@ -1,0 +1,55 @@
+/* ALL header styles */
+.top-wrapper{
+  background-color: white;
+  padding: 40px 0px 20px 0px;  
+}
+
+/* flex container */
+.flex-nav ul{
+  list-style: none;
+  margin: 0px auto;
+  display: flex;
+  width: 40%;
+}
+
+/* flex item */
+.flex-nav li{
+  flex: 4;
+  text-align: center;
+}
+
+.flex-nav .social{
+  flex: 1;
+}
+
+.flex-nav a{
+  color: rgb(169, 168, 168);
+  text-decoration: none;
+  font-size: small;
+}
+
+.flex-nav a:hover{
+  color: rgb(70, 69, 69);
+}
+
+.flex-nav a.active-page {
+  color: rgb(70, 69, 69);
+}
+
+.title h1{
+  margin: 0;
+  font-size: 2.5em;
+  background-color:#E0C0A9;
+  text-shadow: 1px 1px rgb(169, 168, 168);
+  font-family: papyrus, verdana, Geneva, Tahoma, sans-serif;
+}
+.title a{
+  color:white;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding:30px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-weight: 100;
+}

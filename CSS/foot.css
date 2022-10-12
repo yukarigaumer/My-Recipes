@@ -1,0 +1,103 @@
+/* ALL footer styles from here */
+footer{
+  background-color:#E0C0A9;
+  box-shadow: 0px -1px 10px #a58976dd ;
+}
+
+footer div{
+  color: white;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer > div{
+  padding: 30px 0px;
+}
+
+footer p{
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+.footer-nav{
+  font-weight: 100;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.footer-nav a{
+  text-decoration: none;  
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #d4b39ddd;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.footer-nav a:hover{
+  background:rgba(0,0,0,0.3);
+}
+
+/* flex container */
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* flex item */
+.footer-nav li{
+  flex: 3;
+}
+
+.footer-nav .hyphen{
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  height: 150px;
+  padding: 0;
+}
+
+footer input{
+  margin: 15px auto;
+  display: block;
+  font-size: large; 
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #d4b39ddd;
+}
+footer .detail:focus{
+  background-color: #f4ece6;
+  outline: none;
+}
+
+.button{
+  background-color: ivory;
+  color: #E0C0A9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.5em;
+  border: 2px solid #E0C0A9;
+  width: 200px;
+  white-space: pre-line;
+  font-style: italic;
+  cursor: pointer;
+}
+
+footer .button:hover{
+  background-color: #d4b39ddd;
+  color:white;
+  border: 2px solid white;
+}

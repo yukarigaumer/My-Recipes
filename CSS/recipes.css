@@ -1,0 +1,74 @@
+/* basic styles */
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: linear-gradient(135deg, #fefefa 0%, #ffe4c4 100%);
+}
+
+/* main contents start from here */
+.middle-wrapper{
+  max-width: 75%;
+  margin: 10px auto;
+  padding:20px 40px 100px 40px;
+  min-height: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  margin: 30px auto;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 40%;
+  border-bottom: 1px solid rgb(81, 81, 81);
+  color: rgb(81, 81, 81);
+  font-family: fantasy, serif;
+  font-weight: 100;
+}
+
+.recipe-layout{
+  display: flex;
+}
+
+.recipe-pic{
+  flex-basis: 50%;
+  padding: 10px;
+}
+.recipe-details{
+  flex-basis: 50%;
+  padding: 0px 10px 10px 20px;
+}
+
+.recipe-pic img{
+  width: 100%;
+  object-fit: contain;
+  max-height: 1000px;
+}
+
+.recipe-details h3{
+  font-weight: 100;
+  color: rgba(37, 37, 37);
+  text-decoration: underline 0.5px rgb(37, 37, 37);
+  text-underline-offset: 3px;
+  font-variant: small-caps;
+}
+
+.ingredients{
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 15px;
+}
+.cooking-steps{
+  padding-left: 20px;
+}
+
+.ingredients li, .cooking-steps li{
+  letter-spacing: 1px;
+  line-height: 180%;
+  font-weight: 100;
+  color: rgb(37, 37, 37, 0.900);
+}
